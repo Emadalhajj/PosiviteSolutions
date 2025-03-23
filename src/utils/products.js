@@ -178,7 +178,7 @@ export const discoutProducts = [
   },
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "chair",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -201,7 +201,7 @@ export const discoutProducts = [
   },
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "single sofa",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -474,7 +474,7 @@ export const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "meeting chair ",
     imgUrl: phone01,
     category: "mobile",
     price: 799,
@@ -518,7 +518,7 @@ export const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "chair 12 inch",
     imgUrl: phone02,
     category: "mobile",
     price: 799,
@@ -541,7 +541,7 @@ export const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "chair 8",
     imgUrl: phone03,
     category: "mobile",
     price: 599,
@@ -564,7 +564,7 @@ export const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "single sofa",
     imgUrl: phone04,
     category: "mobile",
     price: 799,
@@ -587,7 +587,7 @@ export const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "chair ",
     imgUrl: phone05,
     category: "mobile",
     price: 899,
@@ -610,7 +610,7 @@ export const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "coffee chair ",
     imgUrl: phone06,
     category: "mobile",
     price: 699,
@@ -633,7 +633,7 @@ export const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "office 180 cm",
     imgUrl: watch01,
     category: "watch",
     price: 299,
@@ -656,7 +656,7 @@ export const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "office 160 cm",
     imgUrl: watch02,
     category: "watch",
     price: 299,
@@ -679,7 +679,7 @@ export const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "office 200 cm",
     imgUrl: watch03,
     category: "watch",
     price: 299,
@@ -702,7 +702,7 @@ export const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "office 140 cm",
     imgUrl: watch04,
     category: "watch",
     price: 399,
@@ -725,7 +725,7 @@ export const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "meeting table 12 pers",
     imgUrl: wireless01,
     category: "wireless",
     price: 199,
@@ -748,7 +748,7 @@ export const products = [
 
   {
     id: "21",
-    productName: "Beat EP Headphones",
+    productName: "meeting table 22 pers",
     imgUrl: wireless03,
     category: "wireless",
     price: 199,
@@ -770,7 +770,7 @@ export const products = [
   },
   {
     id: "22",
-    productName: "Black Headphones",
+    productName: "Meeting table 8 pers",
     imgUrl: wireless02,
     category: "wireless",
     price: 169,
@@ -792,7 +792,7 @@ export const products = [
   },
   {
     id: "23",
-    productName: "Bluetooth Headphones",
+    productName: "Meeting table 32 pers",
     imgUrl: wireless04,
     category: "wireless",
     price: 139,

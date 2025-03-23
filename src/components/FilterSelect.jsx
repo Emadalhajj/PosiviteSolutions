@@ -4,9 +4,9 @@ import { products } from '../utils/products';
 const options = [
     { value: "sofa", label: "Sofa" },
     { value: "chair", label: "Chair" },
-    { value: "watch", label: "Watch" },
-    { value: "mobile", label: "Mobile" },
-    { value: "wireless", label: "Wireless" },
+    { value: "watch", label: "office" },
+    { value: "mobile", label: "chair" },
+    { value: "wireless", label: "Meeting table" },
 ];
 
 const customStyles = {

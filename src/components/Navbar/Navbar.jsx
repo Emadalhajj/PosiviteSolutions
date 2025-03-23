@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import logoo from "../../Images/white-logo .png"
 const NavBar = () => {
   const { cartList } = useSelector((state) => state.cart);
   const [expand, setExpand] = useState(false);
@@ -24,10 +25,18 @@ const NavBar = () => {
       className={isFixed ? "navbar fixed" : "navbar"}
     >
       <Container className="navbar-container">
-        <Navbar.Brand to="/">
-          <ion-icon name="bag"></ion-icon>
-          <h1 className="logo">our store</h1>
-        </Navbar.Brand>
+        <Link to="/">
+          {/* <ion-icon name="bag"></ion-icon> */}
+          <img 
+          src={logoo} alt="logo"
+          style={{width:"150px" , corsor:"pointer" }}
+          
+          
+          
+          />
+
+          
+        </Link>
         {/* Media cart and toggle */}
         <div className="d-flex">
           <div className="media-cart">
@@ -77,10 +86,31 @@ const NavBar = () => {
               <Link
                 aria-label="Go to Shop Page"
                 className="navbar-link"
+                to="/AboutUs"    
+              >
+                <span className="nav-link-label">About Us</span>
+              </Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Link
+                aria-label="Go to Shop Page"
+                className="navbar-link"
+                to="/contactUs"    
+              >
+                <span className="nav-link-label">Contact</span>
+              </Link>
+            </Nav.Item>
+
+
+            <Nav.Item>
+              <Link
+                aria-label="Go to Shop Page"
+                className="navbar-link"
                 to="/shop"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Shop</span>
+                <span className="nav-link-label">Products</span>
               </Link>
             </Nav.Item>
 

@@ -9,10 +9,10 @@ const Footer = () => {
           <Row className="footer-row">
             <Col md={3} sm={5} className='box'>
               <div className="logo">
-                  <ion-icon name="bag"></ion-icon>
-                  <h1>Multimart</h1>
+                  {/* <ion-icon name="bag"></ion-icon> */}
+                  <h1>Posivite Solutions</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>At Positive Solutions, we believe in design's transformative power, creating spaces that are beautiful, foster connection, inspire creativity, and support well-being..</p>
             </Col>
             <Col md={3} sm={5} className='box'>
               <h2>About Us</h2>
@@ -37,9 +37,9 @@ const Footer = () => {
             <Col md={3} sm={5} className='box'>
               <h2>Contact Us</h2>
               <ul>
-                <li>70 Washington Square South, New York, NY 10012, United States </li>
-                <li>Email: uilib.help@gmail.com</li>
-                <li>Phone: +1 1123 456 780</li>
+                <li>ALshawqiah, Makkah city, Buiding 8767, KSA </li>
+                <li>Email: ifno@squs.com.sa</li>
+                <li>Phone: 0125522369</li>
               </ul>
             </Col>
           </Row>
