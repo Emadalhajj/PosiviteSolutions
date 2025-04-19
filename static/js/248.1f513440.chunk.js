@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_ecommerce=self.webpackChunkreact_ecommerce||[]).push([[248],{4548:function(e,c,r){r.r(c),r.d(c,{default:function(){return t}});r(2791);var s=r(7022),n=r(184);function t(){return(0,n.jsxs)(s.Z,{children:["//info",(0,n.jsx)("div",{children:(0,n.jsx)("p",{className:"py-4 text-success",children:" Our Services"})})]})}}}]);
+//# sourceMappingURL=248.1f513440.chunk.js.map
