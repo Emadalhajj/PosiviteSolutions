@@ -6,6 +6,7 @@ const Header = () => {
   const { language, toggleLanguage } = useLanguage(); // جلب دالة تغيير اللغة
 
   return (
+   
     <div style={{ backgroundColor: "#000", color: "#fff", height: "40px" }}>
       <Container>
         <Row className="align-items-center">
@@ -33,8 +34,8 @@ const Header = () => {
           <Col md={10} xs={8}>
             <span>
               {language === "en"
-                ? "Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%"
-                : "تخفيضات الصيف على جميع ملابس السباحة والتوصيل السريع مجانًا - خصم 50%!"}
+                ? "Welcome to Psitive Solutions Co. "
+                : "مرحبا بكم في شركة حلول الايجابية للاثاث "}
               <a href="#" className="text-white text-decoration-none fw-bold">
                 {language === "en" ? "Shop Now" : "تسوق الآن"}
               </a>

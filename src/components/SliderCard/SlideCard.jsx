@@ -24,7 +24,9 @@ const SlideCard = ({ title, desc, cover }) => {
     <Container className=" justify-content-center position-relative ">
       <Carousel
         className="col-md-8 col-12 m-4 m-auto"
-        style={{ width: "100%" }}
+        style={{ width: "100%", 
+          // zIndex:"10"
+        }}
         interval={3000}
         pause={false}
         fade
@@ -160,12 +162,17 @@ const SlideCard = ({ title, desc, cover }) => {
           color: '#fff',
           textAlign: 'center',
           padding: '20px',
+          zIndex: "10",
+           pointerEvents: 'none'
+         
         }}
       >
-        <h2>Be Part of Our Next Success Story</h2>
+        <h2 style={{fontWeight :"bold", fontSize:"42px"}}>Be Part of Our Next Success Story</h2>
         <p>Ready to transform your workspace? Contact us to discuss how we can design a space that aligns with your business goals.</p>
         <div className="d-flex gap-3 mt-3">
-          <button className="btn btn-success">START YOUR PROJECT</button>
+          <button className="btn "
+          style={{background:"var(--primary-color)"}}
+          >START YOUR PROJECT</button>
           <button className="btn btn-outline-light">BOOK FREE CONSULTATION</button>
         </div>
       </div>

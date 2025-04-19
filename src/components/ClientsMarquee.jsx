@@ -7,7 +7,7 @@ export default function ClientsMarquee() {
         Clients we have proudly served
       </h3>
 
-      <Marquee
+      <Marquee className="py-5" 
         gradient={false}
         speed={30}
         pauseOnHover={true}
@@ -19,11 +19,12 @@ export default function ClientsMarquee() {
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos (3).png" alt="Client 4" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos (4).png" alt="Client 5" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos (5).png" alt="Client 6" /></div>
+        <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (10).jpg" alt="Client 9" /></div>
+
 
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (1).jpg" alt="Client 7" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (3).jpg" alt="Client 9" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (4).jpg" alt="Client 10" /></div>
-        <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (5).jpg" alt="Client 9" /></div>
 
 
    
@@ -51,6 +52,7 @@ export default function ClientsMarquee() {
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (3).jpg" alt="Client 9" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (4).jpg" alt="Client 10" /></div>
         <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (5).jpg" alt="Client 9" /></div>
+        <div style={logoStyle}><img style={{width:"100%", height:"100%" , objectFit:"contain"}} src="/images/logos2 (10).jpg" alt="Client 9" /></div>
 
      
       </Marquee>

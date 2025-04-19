@@ -160,7 +160,7 @@ const HowWeWorkSection = () => {
             src={howWeWorkSteps[activeStep - 1].image}
             alt={`How We Work Step ${activeStep}`}
             className="img-fluid mt-3 rounded"
-            style={{ border: "5px solid #e0f7f4" }}
+            style={{ border: "3px solid #ebfbff" }}
           />
         </Col>
       </Row>

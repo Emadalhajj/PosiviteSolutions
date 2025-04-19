@@ -18,7 +18,7 @@ export default function AboutUs() {
     { icon: "👥", title: "Customer Obsession" },
   ];
   return (
-    <div style={{ backgroundColor: '#ebfbff', padding: '60px 0' }}>
+    <div style={{ backgroundColor: '#ebfbff', padding: '60px , 0, 0, 0' }}>
       <Container>
         {/* الجزء الأول */}
         <Row className="align-items-center mb-5">
@@ -77,7 +77,7 @@ export default function AboutUs() {
               src="/images/02.jpeg"
               rounded
               fluid
-              style={{ borderRadius: '16px' }}
+              style={{ borderRadius: '16px', height:"450px"}}
             />
           </Col>
 
@@ -119,7 +119,7 @@ export default function AboutUs() {
         
         {/* Core Values Section */}
         <div className="text-center mb-5">
-          <h2 className="fw-bold">Our Core Values</h2>
+          <h2 className="fw-bold py-4">Our Core Values</h2>
           <p className="text-muted">What We Stand For</p>
         </div>
 
@@ -147,7 +147,7 @@ export default function AboutUs() {
                   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.05)',
                 }}
               >
-                <div style={{ fontSize: '24px', marginBottom: '10px' }}>
+                <div style={{ fontSize: '30px', marginBottom: '10px' }}>
                   {value.icon}
                 </div>
                 <p style={{ margin: 0, fontSize: '14px', fontWeight: '500' }}>
@@ -169,7 +169,7 @@ export default function AboutUs() {
               Leadership
             </Badge>
             <h2 className="fw-bold mb-4">
-              A Message From <span style={{ color: 'var(--primary-color)' }}>the CEO</span>
+              A Message From <span style={{ color: 'var(--primary-color)' }}>The CEO</span>
             </h2>
             <p style={{ fontStyle: 'italic', fontSize: '20px', color: 'var(--primary-color)' }}>
               “
@@ -186,7 +186,7 @@ export default function AboutUs() {
               <span style={{ color: 'var(--primary-color)', fontWeight: '600' }}> relentless</span> approach to
               problem-solving—fuel everything we do.
             </p>
-            <p className="fw-bold mt-4 mb-0">Amal Albasheeri</p>
+            <p className="fw-bold mt-4 mb-0">Eshaq Alabedi</p>
             <p style={{ color: 'var(--primary-color)' }}>Founder & CEO</p>
           </Col>
 
@@ -202,10 +202,10 @@ export default function AboutUs() {
               }}
             >
               <Image
-                src="/images/ceo.jpeg" // Replace this with your CEO image path
+                src="/images/ceo.png" // Replace this with your CEO image path
                 roundedCircle
                 fluid
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: '100%', objectFit: 'cover'  }}
               />
             </div>
           </Col>

@@ -11,8 +11,11 @@ const Home = lazy(() => import("./pages/Home"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Cart = lazy(() => import("./pages/Cart"));
 const Product = lazy(() => import("./pages/Product"));
+const Shopping = lazy(() => import("./pages/Shopping"));
 const AboutUs = lazy(() => import("./pages/AboutUs"));
 const ContactUs = lazy(() => import("./pages/ContactUs"));
+const OurClients = lazy(() => import("./pages/OurClients "));
+const Services = lazy(() => import("./pages/Services"));
 function App() {
   return (
     <Suspense fallback={<Loader />}>
@@ -37,6 +40,10 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactUs" element={<ContactUs />} />
+          <Route path="/shopping" element={<Shopping />} />
+          <Route path="/ourClients" element={<OurClients />} />
+          <Route path="/services" element={<Services/>} />
+       
         </Routes>
         <Footer />
       </Router>

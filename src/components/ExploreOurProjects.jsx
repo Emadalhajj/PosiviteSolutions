@@ -71,29 +71,34 @@ const projects = [
             <div key={index} className="p-2">
               <Card className="h-100 shadow-sm border-0" style={{ borderRadius: '20px', overflow: 'hidden', width: '100%' }}>
                 <div style={{ height: '250px', overflow: 'hidden' }}>
-                  <Card.Img
-                    variant="top"
-                    src={project.image}
-                    style={{ height: '100%', width: '100%', objectFit: 'cover' }}
-                  />
-                </div>
-                <Card.Body className="bg-light text-start" style={{ position: 'relative', height: '120px' }}>
-                  <div style={{
-                    backgroundColor: 'rgba(0, 0, 0, 0.6)',
-                    color: '#fff',
-                    padding: '10px 15px',
-                    borderRadius: '10px',
-                    position: 'absolute',
-                    bottom: '20px',
-                    left: '20px',
-                    right: '20px'
-                  }}>
-                    <Card.Title className="mb-2" style={{ fontSize: '1rem' }}>{project.title}</Card.Title>
-                    <div className="d-flex align-items-center">
-                      <FaMapMarkerAlt className="me-2" />
-                      <small>{project.location}</small>
-                    </div>
+                    <Card.Img
+                      variant="top"
+                      src={project.image}
+                      style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                    />
                   </div>
+                  <Card.Body className="bg-light text-start" style={{ position: 'relative', height: '120px' }}>
+                    <div style={{
+                       backgroundColor: 'var(--primary-color)', // يظل فوق الصورة كطبقة تغطية شفافة
+                       color: '#fff',
+                       padding: '10px 15px',
+                       borderRadius: '10px',
+                       position: 'absolute',
+                       bottom: '20px',
+                       left: '20px',
+                       right: '20px',
+                       backgroundImage: `url("/src/Images/02.jpeg")`,
+                       backgroundSize: 'cover',
+                       backgroundPosition: 'center',
+                    }}>
+                      <Card.Title className="mb-2" style={{ fontSize: '1rem' }}>{project.title}</Card.Title>
+                      <div className="d-flex align-items-center">
+                        <FaMapMarkerAlt className="me-2" />
+                        <small>{project.location}</small>
+                      </div>
+                    </div>
+
+
                 </Card.Body>
               </Card>
             </div>
